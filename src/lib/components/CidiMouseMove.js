@@ -46,7 +46,6 @@ class CidiMouseMove extends Component {
   }
   render(){
     let {x,y} = this.state;
-    console.log(x,y);
     return (
       <div style={{
         transition: 'all 0.5s',
@@ -54,7 +53,6 @@ class CidiMouseMove extends Component {
         transform: `translate(${x}px,${y}px)`
       }}>
         { this.props.children }
-        {x},{y}
       </div>
     );
   }

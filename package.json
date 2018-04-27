@@ -1,6 +1,6 @@
 {
   "name": "cidi-mouse-move",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mouse move lib",
   "main": "build/index.js",
   "scripts": {
