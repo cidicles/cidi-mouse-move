@@ -46,9 +46,10 @@ class CidiMouseMove extends Component {
   }
   render(){
     let {x,y} = this.state;
+    let {distX, distY, oMult, time} = this.props;
     return (
       <div style={{
-        transition: 'all 0.5s',
+        transition: `all ${time}s`,
         position: 'relative',
         transform: `translate(${x}px,${y}px)`
       }}>
